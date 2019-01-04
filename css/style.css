@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .main{
+      
+  }
+  .navigation {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navigation button {
+    -webkit-appearance: none;
+    background: transparent;
+    border: none;
+    -webkit-user-select: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-family: monospace;
+  }
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .section {
+    position: relative;
+    height: 100%;
+    float: left;
+    /*for demo*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    letter-spacing: 0.5vw;
+  }
+  
+  .section.blue {
+    background: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    color: #0e4884;
+  }
+  
+  .section.green {
+    background: linear-gradient(-225deg, #43C6AC, #F8FFAE);
+    color: #43C6AC;
+  }
+  
+  .section.red {
+    background: linear-gradient(-225deg, #cb356b, #bd3f32);
+    color: #8a2448;
+  }
+  
+  .section.yellow {
+    background: linear-gradient(-225deg, #ffa751, #ffe259);
+    color: #f5902d;
+  }
+  
+  
